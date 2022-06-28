@@ -51,6 +51,9 @@ padding-right: 30px;
 	opacity: 80%;
 }
 
+.scale {
+color: blue;
+}
 .list__photo {
 	background-image: url(../images/woman.jpg);
 	background-repeat: no-repeat;
