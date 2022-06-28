@@ -24,6 +24,7 @@ body {
 	padding: 50px;
 	color: white;
 	background-color: black;
+	height: 90vh;
 	
 }
 
@@ -36,6 +37,27 @@ width: 33%;
 padding-right: 30px;
 }
 
+.list__item--header {
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 25px;
+	opacity: 90%;
+}
+
+.list__item--text {
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 25px;
+	opacity: 80%;
+}
+
+.list__photo {
+	background-image: url(../images/woman.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 7px;
+}
 
 
 @media screen and (max-width: 920px) {
