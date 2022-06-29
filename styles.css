@@ -1,13 +1,13 @@
 @font-face {
 	src: url('../fonts/Inter-Medium.ttf') format('truetype');
-	font-family: 'Lato';
+	font-family: 'Inter';
 	font-weight: 500;
 	font-style: normal;
 }
 
 @font-face {
 	src: url('../fonts/Inter-SemiBold.ttf') format('truetype');
-	font-family: 'Lato';
+	font-family: 'Inter';
 	font-weight: 600;
 	font-style: normal;
 }
@@ -35,6 +35,10 @@ width: 33%;
 
 .list:not(:last-child) {
 padding-right: 30px;
+}
+
+.name {
+	font-size: 75px;
 }
 
 .list__item--header {
