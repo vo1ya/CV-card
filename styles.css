@@ -38,26 +38,39 @@ padding-right: 30px;
 }
 
 .name {
+	font-style: normal;
+	font-weight: 600;
 	font-size: 75px;
+	line-height: 75px;
 }
 
 .list__item--header {
 	font-size: 30px;
 	font-weight: 600;
 	line-height: 25px;
-	opacity: 90%;
+	opacity: 0.9;
 }
 
 .list__item--text {
 	font-size: 15px;
 	font-weight: 500;
 	line-height: 25px;
-	opacity: 80%;
+	opacity: 0.8;
 }
 
-.scale {
-color: blue;
+.parameter {
+	font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 0.6;
 }
+
+.value {
+	font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+}
+
 .list__photo {
 	background-image: url(../images/woman.jpg);
 	background-repeat: no-repeat;
@@ -66,8 +79,64 @@ color: blue;
 	border-radius: 7px;
 }
 
+.about-section {
+	display: flex;
+	flex-wrap: wrap;
+}
 
-@media screen and (max-width: 920px) {
+.about-section__about-block {
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+	margin: 5px;
+	margin-bottom: 10px;
+}
+
+.skill__block {
+	display: flex;
+	flex-direction: column;
+}
+
+.skill {
+	font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 0.8;
+}
+
+.skill-container {
+    width: 100%; /* Full width */
+    background-color: rgb(92, 92, 92); /* Grey background */
+    height: 5px;
+    border-radius: 5px;
+}
+
+.skills {
+    color: white;
+	opacity: 1;
+	height: 5px;
+    border-radius: 5px;
+    font-size: 0px;
+}
+
+.internet {width: 50%; background-color: #ffffff;}
+.social {width: 25%; background-color: #ffffff;} 
+.shopping {width: 50%; background-color: #ffffff;} 
+
+@media screen and (max-width: 1300px) {
+	.wrapper {
+		
+	}
+
+	.name {
+		font-style: normal;
+		font-weight: 600;
+		font-size: 60px;
+		line-height: 75px;
+	}
+}
+
+@media screen and (max-width: 650px) {
 	.wrapper {
 		flex-direction: column;
 		width: 620px;
