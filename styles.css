@@ -30,6 +30,11 @@ body {
 
 .list {
 width: 33%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 50px;
+
 
 }
 
@@ -42,6 +47,7 @@ padding-right: 30px;
 	font-weight: 600;
 	font-size: 75px;
 	line-height: 75px;
+	margin: 0;
 }
 
 .list__item--header {
@@ -49,6 +55,7 @@ padding-right: 30px;
 	font-weight: 600;
 	line-height: 25px;
 	opacity: 0.9;
+	
 }
 
 .list__item--text {
@@ -56,6 +63,7 @@ padding-right: 30px;
 	font-weight: 500;
 	line-height: 25px;
 	opacity: 0.8;
+	margin-bottom: 0;
 }
 
 .parameter {
@@ -122,6 +130,10 @@ padding-right: 30px;
 .internet {width: 50%; background-color: #ffffff;}
 .social {width: 25%; background-color: #ffffff;} 
 .shopping {width: 50%; background-color: #ffffff;} 
+
+.citation {
+	font-size: 30px;
+}
 
 @media screen and (max-width: 1300px) {
 	.wrapper {
